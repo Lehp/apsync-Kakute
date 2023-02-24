@@ -30,4 +30,6 @@ sudo apt install usbmount -y
 ~/apsync-Kakute/apstreamline.sh
 ~/apsync-Kakute/use_networkmanager.sh
 
+sudo apt autoremove -y
+
 sudo reboot
