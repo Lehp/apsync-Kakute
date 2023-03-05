@@ -26,5 +26,3 @@ echo "" | sudo tee -a /boot/config.txt >/dev/null
 echo "# Power switch" | sudo tee -a /boot/config.txt >/dev/null
 echo "dtoverlay=gpio-shutdown" | sudo tee -a /boot/config.txt >/dev/null
 echo "dtoverlay=gpio-poweroff" | sudo tee -a /boot/config.txt >/dev/null
-
-sudo reboot
